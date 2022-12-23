@@ -1,0 +1,2 @@
+ion.sound({sounds:[{name:"button_click",multiplay:true,volume:0.5,preload:true},{name:"computer_error",multiplay:true,volume:0.8,preload:false},{name:"fail",multiplay:false,volume:0.5,preload:true},{name:"count",volume:0.1,multiplay:false,preload:false},{name:"transition-2",volume:0.8,multiplay:false,preload:true}],volume:0.7,path:"assets/js/sounds/",preload:false});function GetRandomNumber(min,max){return Math.floor(Math.random()*(max-min)+min);}
+function MoveBar(to,dur,El='#PrgsBar'){$(El).animate({width:to},dur);}
